@@ -106,8 +106,12 @@ app_desc {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
 @media (max-width: 576px) {
+  .imgmob {
+    display: none;
+  }
+}
+@media (max-width: 812px) {
   h2 {
     font-size: 24px;
     font-weight: bold;
@@ -118,9 +122,6 @@ app_desc {
   }
   h3 {
     font-size: 18px;
-  }
-  .imgmob {
-    display: none;
   }
   .h2-app {
     text-align: center;
@@ -137,8 +138,26 @@ app_desc {
     max-width: 70%;
     margin: 0 auto;
   }
-
   .mt-4 {
     margin-top: 2px !important;
+  }
+  .about-paragraphs {
+    display: flex;
+    margin: 15px 0;
+  }
+  .imgabo {
+    max-width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  .email-link {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .navigation-links {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
